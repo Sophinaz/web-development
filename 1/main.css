@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 60vh;
+}
+.each{
+    display: flex;
+    margin: 10px;
+}
+input{text-transform: lowercase;}
+input, button{
+    border-radius: 7px;
+    padding: 7px;
+    text-align: start;
+    border-color: orange;
+    width: 14rem;
+}
+button{
+    margin-top: 10px;
+    width: 15rem;
+    cursor: pointer;
+    background-color: rgb(30, 30, 85);
+    color: white;
+    text-align: center;
+}
+p{
+    border: 1px solid rgb(116, 114, 114);
+    margin-top: 15px;
+    background-color: bisque;
+}
+.login{
+    color: black;
+    font-size: 30px;
+    font-weight: 10000;
+    padding-top: 4rem;
+}
